@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif; /* Establecer una fuente agradable, puedes cambiarla si lo deseas */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
+  }
+  #pagina-principal {
+    background-color: #ffffff;
+  }
+  #pagina-secundaria {
+    background-color: #e2cbe6;
+  }
+  
+  header {
+    background-color: #a07cb9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;  /* Centra el texto y los elementos de línea (como los botones) */
+    margin-top: 20px;    /* Agrega un poco de espacio en la parte superior */
+    margin-bottom: 20px;  /* Ajusta el espacio debajo del párrafo */
+  }
+  
+  button {
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF69B4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 1s ease; /* Movimiento suave para el botón */
+    position: relative; /* Para usar z-index si es necesario */
+    z-index: 10; /* Asegura que el botón esté sobre otros elementos */
+  }
+  #ButtonNo {
+    pointer-events: none;
+    
+  }
+  
+  button:hover {
+    background-color: #FF1493; /* Rosa más oscuro al pasar el ratón sobre el botón */
+  }
+  button:focus {
+    outline: none; /* Elimina el borde cuando el botón está enfocado */
+  }
+  img {
+    width: 300px;   /* Ajusta el ancho */
+    height: 200px;  /* Ajusta la altura */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;  /* La imagen no puede exceder el 100% de su contenedor */
+    height: auto;     /* La altura se ajusta automáticamente para mantener la proporción */
+}
